@@ -25,14 +25,13 @@ export default function Home() {
         ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <header className={styles.header}>
         <span className={styles.logo}>
           <Image
-            src="/logo-horizontal-transparent-168.png"
+            src="/logo-transparent-168-min.png"
             alt="Appliance Vitals Logo"
-            width={300}
-            height={90}
+            width={147.6}
+            height={91.4}
             quality="100"
           />
         </span>
@@ -40,8 +39,21 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Assuring fix to your appliance problem.{" "}
+          Assuring fix to your appliance problem.
         </h1>
+        <h2 className={styles.title2}>
+          We repair all domestic electrical appliances, including washing
+          machine, fridge freezer, oven, dishwasher, cooker, and more.
+        </h2>
+
+        <div className={styles.services}>
+          x<div>Washing Machine Repair</div>
+          <div>Fridge Freezer Repair</div>
+          <div>Oven Repair</div>
+          <div>Dishwasher Repair</div>
+          <div>Cooker Repair</div>
+          <div>Microwave Repair</div>
+        </div>
       </main>
 
       {/* <footer className={styles.footer}>
