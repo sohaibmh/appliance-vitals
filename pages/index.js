@@ -151,19 +151,16 @@ export default function Home() {
           />
         </div>
         <div>
-          <b>Our Address</b>
+          <b>Our Location</b>
           <br />
-          250 Church Hill Road <br />
           East Barnet <br />
           London <br />
-          EN4 8PH
           <br />
         </div>
         <div>
           <b>Contact Us</b>
           <br />
-          07429 184409 <br />
-          sohaibmh198@yahoo.com
+          appliancevitals@gmail.com
         </div>
       </footer>
     </div>
