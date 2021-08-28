@@ -1,6 +1,20 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import {
+  calendar,
+  clock,
+  approval,
+  washingMachine,
+  fridge,
+  cooker,
+  oven,
+  dishwasher,
+  microwave,
+  poundCoins,
+  repairTools,
+  faulty,
+} from "../svgs";
 
 export default function Home() {
   return (
@@ -43,16 +57,87 @@ export default function Home() {
         </h1>
         <h2 className={styles.title2}>
           We repair all domestic electrical appliances, including washing
-          machine, fridge freezer, oven, dishwasher, cooker, and more.
+          machines, fridge freezers, ovens, dishwashers, cookers, and more.
+          Available within 24 hours throughout London. You can book the service
+          online, choosing your own date/time depending on your availability,
+          for our engineer to visit and fix your appliance issue.
         </h2>
 
         <div className={styles.services}>
-          x<div>Washing Machine Repair</div>
-          <div>Fridge Freezer Repair</div>
-          <div>Oven Repair</div>
-          <div>Dishwasher Repair</div>
-          <div>Cooker Repair</div>
-          <div>Microwave Repair</div>
+          <div>
+            <span>{washingMachine}</span>
+            <span> Washing Machine Repair</span>
+          </div>
+          <div>
+            <span>{fridge}</span>
+            <span>Fridge Freezer Repair</span>
+          </div>
+          <div>
+            <span>{oven}</span>
+            <span>Oven Repair</span>
+          </div>
+          <div>
+            <span>{dishwasher}</span>
+            <span>Dishwasher Repair</span>
+          </div>
+          <div>
+            <span>{cooker}</span>
+            <span>Cooker Repair</span>
+          </div>
+          <div>
+            <span>{microwave}</span>
+            <span>Microwave Repair</span>
+          </div>
+        </div>
+
+        <div className={styles.faqs}>
+          {poundCoins}
+          <div className={styles.faqsText}>
+            <b style={{ fontSize: "24px", color: "black" }}>
+              How much will my appliance repair cost?
+            </b>
+            <br /> <br />
+            <b>
+              We charge a fixed price of £79 + VAT + parts for a completed
+              repair (any day service). If you want same day/next day service it
+              will be £99 + VAT + parts. Reduced to £45 + VAT if Beyond
+              Economical Repair.
+            </b>
+            <br /> <br />
+            <p>
+              We visit your property and diagnose the problem with your
+              appliance and tell you if it needs any parts. For this, we will
+              only charge you £45 + VAT. If we can repair your appliance then
+              the total charge will only be £79 + VAT + parts. In case we need
+              to visit your property more than once there will be no extra
+              charge for that. Also, in many cases, no parts are required.
+            </p>
+          </div>
+          {repairTools}
+          <div className={styles.faqsText}>
+            <b style={{ fontSize: "24px", color: "black" }}>
+              What if you can't repair my appliance?
+            </b>
+            <br /> <br />
+            <p>
+              If you are not happy with the cost of the parts, or if your
+              appliance is Beyond Economical Repair, the charge is only £45 +
+              VAT. This covers our admin costs, the engineer's time, as well as
+              travel costs.
+            </p>
+          </div>
+          {faulty}
+          <div className={styles.faqsText}>
+            <b style={{ fontSize: "24px", color: "black" }}>
+              What if my appliance goes wrong again?
+            </b>
+            <br /> <br />
+            <p>
+              If your appliance goes wrong again within 28 days of completion of
+              our repair, and the fault is the same as the one we rectified, we
+              will repair it back at no extra cost.
+            </p>
+          </div>
         </div>
       </main>
 
