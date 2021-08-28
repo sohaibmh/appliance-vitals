@@ -1,6 +1,5 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,6 +102,10 @@
   box-shadow: 20px 20px 60px #d1d5d7, -20px -20px 60px #ffffff;
 
   border-radius: 20px;
+}
+
+.services > div > span {
+  padding: 1rem;
 }
 
 .faqs {

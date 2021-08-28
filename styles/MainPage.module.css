@@ -48,8 +48,8 @@
 #clockSvg:hover,
 #approvalSvg:hover,
 .faqsSvgIcon:hover {
-  transform: scale(1.2);
-  fill: hotpink;
+  transform: scale(1.1);
+  fill: #121af0;
 }
 
 .repairInfo {

@@ -59,8 +59,8 @@ export default function Home() {
           We repair all domestic electrical appliances, including washing
           machines, fridge freezers, ovens, dishwashers, cookers, and more.
           Available within 24 hours throughout London. You can book our service
-          online, choosing your own date/time depending on your availability,
-          for our engineer to visit and fix your appliance issue.
+          online, choosing your own date/time depending on your availability.
+          Our engineer will visit your address and fix your appliance issue.
         </h2>
 
         <div className={styles.services}>
@@ -115,7 +115,7 @@ export default function Home() {
           {repairTools}
           <div className={styles.faqsText}>
             <b style={{ fontSize: "24px", color: "black" }}>
-              What if you can't repair my appliance?
+              What if you can&#39;t repair my appliance?
             </b>
             <br /> <br />
             <p>
