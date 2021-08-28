@@ -104,12 +104,12 @@ export default function Home() {
             </b>
             <br /> <br />
             <p>
-              We visit your property and diagnose the problem with your
+              We attend to your address to diagnose the problem with your
               appliance and tell you if it needs any parts. For this, we will
-              only charge you £49. If we can repair your appliance then the
-              total charge will only be £89 + parts. In case we need to visit
-              your property more than once there will be no extra charge for
-              that. Also, in many cases, no parts are required.
+              only charge you £49. If we repair the appliance then the total
+              charge will only be £89 + parts. In case we need to visit more
+              than once there will be no extra charge for that. Also, in many
+              cases, no parts are required.
             </p>
           </div>
           {repairTools}
@@ -119,8 +119,8 @@ export default function Home() {
             </b>
             <br /> <br />
             <p>
-              If you are not happy with the cost of the parts, or if your
-              appliance is beyond economical repair, the charge is only £49.
+              If your appliance is beyond economical repair, or if you are not
+              happy with the cost of the parts, the callout charge is only £49.
               This covers our admin costs, the engineer&#39;s time, as well as
               travel costs.
             </p>
