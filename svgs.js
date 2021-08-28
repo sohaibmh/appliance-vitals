@@ -1,6 +1,6 @@
 import styles from "./styles/MainPage.module.css";
 
-const blue = "#2006ce";
+const blue = "#0057ba";
 // const green = "#2A9134";
 
 export const calendar = (

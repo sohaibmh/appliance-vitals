@@ -45,6 +45,9 @@
   align-items: center;
   font-size: 2rem;
   background-color: rgba(113, 187, 183, 0.11);
+
+  background: #f6fafd;
+  box-shadow: 10px 10px 30px #d1d5d7, -10px -10px 30px #ffffff;
 }
 
 .header a {
@@ -73,13 +76,14 @@
 .services {
   width: 60vw;
   /* border: solid 1px rgb(17, 122, 201); */
-  background-color: #21283615;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
   padding: 1rem;
+
+  background-color: #f6fafd;
 }
 
 .services > div {
@@ -94,6 +98,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  background: #f6fafd;
+  box-shadow: 20px 20px 60px #d1d5d7, -20px -20px 60px #ffffff;
+
+  border-radius: 20px;
 }
 
 .faqs {
