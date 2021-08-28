@@ -58,7 +58,7 @@ export default function Home() {
         <h2 className={styles.title2}>
           We repair all domestic electrical appliances, including washing
           machines, fridge freezers, ovens, dishwashers, cookers, and more.
-          Available within 24 hours throughout London. You can book the service
+          Available within 24 hours throughout London. You can book our service
           online, choosing your own date/time depending on your availability,
           for our engineer to visit and fix your appliance issue.
         </h2>
@@ -98,19 +98,18 @@ export default function Home() {
             </b>
             <br /> <br />
             <b>
-              We charge a fixed price of £79 + VAT + parts for a completed
-              repair (any day service). If you want same day/next day service it
-              will be £99 + VAT + parts. Reduced to £45 + VAT if Beyond
-              Economical Repair.
+              We charge a fixed price of £89 + parts (if required) for a
+              completed repair. If you want same day/next day service it will be
+              £129 + parts.
             </b>
             <br /> <br />
             <p>
               We visit your property and diagnose the problem with your
               appliance and tell you if it needs any parts. For this, we will
-              only charge you £45 + VAT. If we can repair your appliance then
-              the total charge will only be £79 + VAT + parts. In case we need
-              to visit your property more than once there will be no extra
-              charge for that. Also, in many cases, no parts are required.
+              only charge you £49. If we can repair your appliance then the
+              total charge will only be £89 + parts. In case we need to visit
+              your property more than once there will be no extra charge for
+              that. Also, in many cases, no parts are required.
             </p>
           </div>
           {repairTools}
@@ -121,8 +120,8 @@ export default function Home() {
             <br /> <br />
             <p>
               If you are not happy with the cost of the parts, or if your
-              appliance is Beyond Economical Repair, the charge is only £45 +
-              VAT. This covers our admin costs, the engineer's time, as well as
+              appliance is beyond economical repair, the charge is only £49.
+              This covers our admin costs, the engineer&#39;s time, as well as
               travel costs.
             </p>
           </div>
@@ -133,26 +132,40 @@ export default function Home() {
             </b>
             <br /> <br />
             <p>
-              If your appliance goes wrong again within 28 days of completion of
-              our repair, and the fault is the same as the one we rectified, we
-              will repair it back at no extra cost.
+              If your appliance goes wrong again within one month of completion
+              of our repair, and the fault is the same as the one we rectified,
+              we will repair it back at no extra cost.
             </p>
           </div>
         </div>
       </main>
 
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
+      <footer className={styles.footer}>
+        <div className={styles.footerLogo}>
+          <Image
+            src="/logo-transparent-168-min.png"
+            alt="Appliance Vitals Logo"
+            width={118.08}
+            height={73.12}
+            quality="100"
+          />
+        </div>
+        <div>
+          <b>Our Address</b>
+          <br />
+          250 Church Hill Road <br />
+          East Barnet <br />
+          London <br />
+          EN4 8PH
+          <br />
+        </div>
+        <div>
+          <b>Contact Us</b>
+          <br />
+          07429 184409 <br />
+          sohaibmh198@yahoo.com
+        </div>
+      </footer>
     </div>
   );
 }

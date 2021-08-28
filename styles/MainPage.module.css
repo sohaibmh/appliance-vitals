@@ -38,13 +38,6 @@
   cursor: pointer;
 }
 
-#calendarSvg,
-#clockSvg,
-#approvalSvg,
-.faqsSvgIcon {
-  cursor: none;
-}
-
 #fridgeRepair:hover,
 #washingMachineRepair:hover,
 #cookerRepair:hover,
