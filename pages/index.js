@@ -93,7 +93,7 @@ export default function Home() {
         <div className={styles.faqs}>
           {poundCoins}
           <div className={styles.faqsText}>
-            <b style={{ fontSize: "24px", color: "black" }}>
+            <b className={styles.faqQs}>
               How much will my appliance repair cost?
             </b>
             <br /> <br />
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
           {repairTools}
           <div className={styles.faqsText}>
-            <b style={{ fontSize: "24px", color: "black" }}>
+            <b className={styles.faqQs}>
               What if you can&#39;t repair my appliance?
             </b>
             <br /> <br />
@@ -127,7 +127,7 @@ export default function Home() {
           </div>
           {faulty}
           <div className={styles.faqsText}>
-            <b style={{ fontSize: "24px", color: "black" }}>
+            <b className={styles.faqQs}>
               What if my appliance goes wrong again?
             </b>
             <br /> <br />
