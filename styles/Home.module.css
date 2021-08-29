@@ -75,7 +75,7 @@
 }
 
 .services {
-  width: 60vw;
+  width: 62vw;
   /* border: solid 1px rgb(17, 122, 201); */
   display: flex;
   flex-wrap: wrap;
@@ -118,7 +118,7 @@
   padding-right: 50px;
   text-align: justify;
   margin-top: 50px;
-  width: 60vw;
+  width: 62vw;
   font-size: 18px;
 }
 

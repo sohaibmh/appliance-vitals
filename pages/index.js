@@ -160,7 +160,9 @@ export default function Home() {
         <div>
           <b>Contact Us</b>
           <br />
-          appliancevitals@gmail.com
+          <a href="mailto:appliancevitals@gmail.com">
+            appliancevitals@gmail.com
+          </a>
         </div>
       </footer>
     </div>
