@@ -63,6 +63,12 @@ export default function Home() {
           Our engineer will visit your address and fix your appliance issue.
         </h2>
 
+        <form action="https://appliancevitals.simplybook.it/v2/#book">
+          <button type="submit" className={styles.bookNowButton}>
+            BOOK NOW &nbsp; &#128342;
+          </button>
+        </form>
+
         <div className={styles.services}>
           <div>
             <span>{washingMachine}</span>

@@ -159,6 +159,50 @@
   padding-top: 10px;
 }
 
+/* button style source: https://codemyui.com/gradient-button-with-a-gleam-effect/ */
+
+.bookNowButton {
+  -webkit-appearance: none;
+  background: linear-gradient(to right, #060e49 0%, #9a87f0 50%, #410572 100%);
+  background-size: 500%;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  color: #fff;
+  cursor: pointer;
+  height: 7rem;
+  letter-spacing: 0.08em;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 40rem;
+  margin-bottom: 4vw;
+  font-size: 4em;
+}
+
+.bookNowButton:hover {
+  animation-name: gradient;
+  -webkit-animation-name: gradient;
+  animation-duration: 2s;
+  -webkit-animation-duration: s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
 @media (max-width: 800px) {
   .title {
     font-size: 9vw;
@@ -196,5 +240,12 @@
 
   .footerLogo {
     padding-top: 0px;
+  }
+
+  .bookNowButton {
+    width: 25rem;
+    height: 5rem;
+    font-size: 3em;
+    margin-bottom: 10vw;
   }
 }
