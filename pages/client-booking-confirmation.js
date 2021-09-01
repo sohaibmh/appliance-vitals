@@ -28,7 +28,7 @@ export default function Home() {
         <div>
           <h1>
             Your booking is confirmed. You will receive a booking confirmation
-            email. shortly.
+            email shortly.
           </h1>
         </div>
       </main>
