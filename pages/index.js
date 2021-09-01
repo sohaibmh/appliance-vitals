@@ -1,10 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import {
-  calendar,
-  clock,
-  approval,
   washingMachine,
   fridge,
   cooker,
@@ -39,18 +35,6 @@ export default function Home() {
         ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className={styles.header}>
-        <span className={styles.logo}>
-          <Image
-            src="/logo-transparent-168-min.png"
-            alt="Appliance Vitals Logo"
-            width={147.6}
-            height={91.4}
-            quality="100"
-          />
-        </span>
-      </header>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
           Assuring fix to your appliance problem.
@@ -144,32 +128,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <div className={styles.footerLogo}>
-          <Image
-            src="/logo-transparent-168-min.png"
-            alt="Appliance Vitals Logo"
-            width={118.08}
-            height={73.12}
-            quality="100"
-          />
-        </div>
-        <div>
-          <b>Our Location</b>
-          <br />
-          East Barnet <br />
-          London <br />
-          <br />
-        </div>
-        <div>
-          <b>Contact Us</b>
-          <br />
-          <a href="mailto:appliancevitals@gmail.com">
-            appliancevitals@gmail.com
-          </a>
-        </div>
-      </footer>
     </div>
   );
 }

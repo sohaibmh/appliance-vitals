@@ -1,5 +1,5 @@
 .container {
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,13 +49,6 @@
 
   background: #f6fafd;
   box-shadow: 10px 10px 30px #d1d5d7, -10px -10px 30px #ffffff;
-}
-
-.header a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .logo {
@@ -153,10 +146,18 @@
   font-size: 18px;
   color: gray;
   text-align: left;
+  position: absolute;
+  bottom: 0;
 }
 
 .footerLogo {
   padding-top: 10px;
+}
+
+.bookingConfirmation {
+  font-size: 30px;
+  font-weight: 400;
+  width: 80vw;
 }
 
 /* button style source: https://codemyui.com/gradient-button-with-a-gleam-effect/ */

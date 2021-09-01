@@ -25,11 +25,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
-          <h1>
-            Your booking is confirmed. You will receive a booking confirmation
-            email shortly.
-          </h1>
+        <div className={styles.bookingConfirmation}>
+          Thank you for booking your repair service with us.
+          <br />
+          <br />
+          Your booking is confirmed. You will receive a confirmation email
+          shortly.
+          <br />
+          <br />
+          Note: if you have chosen the "Pay Later" option during checkout, you
+          will be asked to pay by cash or through online transfer to our bank
+          account when the engineer attends to your address.
         </div>
       </main>
     </div>
