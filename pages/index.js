@@ -110,12 +110,11 @@ export default function Home() {
             </b>
             <br /> <br />
             <p>
-              We attend to your address to diagnose the problem with your
-              appliance and tell you if it needs any parts. For this, we will
-              only charge you £49. If we repair the appliance then the total
-              charge will only be £89 + parts. In case we need to visit more
-              than once there will be no extra charge for that. Also, in many
-              cases, no parts are required.
+              We attend to your address to diagnose the problem with the
+              appliance. We will let you know if it needs any parts. For this,
+              we will only charge you £49. If we repair the appliance then the
+              total charge will only be £89 + parts. In case we need to visit
+              more than once there will be no extra charge for that.
             </p>
           </div>
           {repairTools}
