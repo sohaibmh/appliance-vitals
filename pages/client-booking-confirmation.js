@@ -33,9 +33,9 @@ export default function Home() {
           shortly.
           <br />
           <br />
-          Note: if you have chosen the "Pay Later" option during checkout, you
-          will be asked to pay by cash or through online transfer to our bank
-          account when the engineer attends to your address.
+          Note: if you have chosen the &#8220;Pay Later&#8221; option during
+          checkout, you will be asked to pay by cash or through online transfer
+          to our bank account when the engineer attends to your address.
         </div>
       </main>
     </div>
