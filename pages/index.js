@@ -106,7 +106,7 @@ export default function Home() {
             <b className={styles.faqQs}>
               What if you can&#39;t repair my appliance?
             </b>
-            <br /> <br />
+            <br />
             <p>
               If your appliance is beyond economical repair, or if you are not
               happy with the cost of the parts, the callout charge is only £49.
@@ -119,7 +119,7 @@ export default function Home() {
             <b className={styles.faqQs}>
               What if my appliance goes wrong again?
             </b>
-            <br /> <br />
+            <br />
             <p>
               If your appliance goes wrong again within one month of completion
               of our repair, and the fault is the same as the one we rectified,

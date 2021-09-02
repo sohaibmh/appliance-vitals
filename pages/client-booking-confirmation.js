@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <div className={styles.bookingConfirmation}>
           Thank you for booking your repair service with us.
           <br />
