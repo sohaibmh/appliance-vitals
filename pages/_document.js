@@ -24,7 +24,7 @@ class MyDocument extends Document {
               }
               gtag("js", new Date());
         
-              gtag("config", "UA-80878333-2");
+              gtag("config", "G-DX6Y14C2TV");
             `,
             }}
           ></script>
