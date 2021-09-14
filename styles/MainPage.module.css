@@ -35,7 +35,7 @@
 .faqsSvgIcon {
   transition: all 1s;
   transform-origin: 50% 50%;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 #fridgeRepair:hover,
