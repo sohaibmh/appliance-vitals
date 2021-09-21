@@ -86,7 +86,7 @@ export default function Home() {
             </b>
             <br /> <br />
             <b>
-              We charge a fixed price of £89 + parts (if required) for a
+              We charge a fixed price of £79 + parts (if required) for a
               completed repair. If you want same day/next day service it will be
               £129 + parts.
             </b>
@@ -95,7 +95,7 @@ export default function Home() {
               We attend to your address to diagnose the problem with the
               appliance. We will let you know if it needs any parts. For this,
               we will only charge you £49. If we repair the appliance then the
-              total charge will only be £89 + parts. In case we need to visit
+              total charge will only be £79 + parts. In case we need to visit
               more than once there will be no extra charge for that.
             </p>
           </div>
