@@ -43,8 +43,8 @@ export default function OvenRepair() {
           <li>Oven fan making loud noise</li>
           <li>Oven door came off</li>
         </ul>{" "}
-        If your oven isn’t working like it should, we are here to help, seven
-        days a week and available within 24 hours.
+        If your oven isn&#39;t working like it should, we are here to help,
+        seven days a week and available within 24 hours.
         <br />
         <br />
         We repair electric ovens from all major brands including Bosch, Miele,

@@ -45,7 +45,7 @@ export default function FridgeFreezerRepair() {
           <li>Fridge freezer ice maker not working</li>
           <li>Fridge freezer leaking water</li>
         </ul>{" "}
-        If your fridge freezer isn’t working like it should, we are here to
+        If your fridge freezer isn&#39;t working like it should, we are here to
         help, seven days a week and available within 24 hours.
         <br />
         <br />

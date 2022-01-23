@@ -45,7 +45,7 @@ export default function MicrowaveRepair() {
           <li>Microwave electrical issues</li>
           <li>Microwave door not closing</li>
         </ul>{" "}
-        If your microwave isn’t working like it should, we are here to help,
+        If your microwave isn&#39;t working like it should, we are here to help,
         seven days a week and available within 24 hours.
         <br />
         <br />

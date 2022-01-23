@@ -45,8 +45,8 @@ export default function DishwasherRepair() {
           <li>Dishwasher leaking water</li>
           <li>Dishwasher door not closing</li>
         </ul>{" "}
-        If your dishwasher isn’t working like it should, we are here to help,
-        seven days a week and available within 24 hours.
+        If your dishwasher isn&#39;t working like it should, we are here to
+        help, seven days a week and available within 24 hours.
         <br />
         <br />
         We repair integrated and freestanding dishwashers from all major brands
