@@ -1,12 +1,12 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import RootComponent from "../components/RootComponent";
+import styles from "../../styles/Home.module.css";
+import RootComponent from "../../components/RootComponent";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Appliance Repair Service in London | Appliance Vitals Ltd</title>
+        <title>Microwave Repair | Appliance Vitals Ltd</title>
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
@@ -23,7 +23,10 @@ export default function Home() {
         ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <RootComponent />
+
+      <main>
+        <RootComponent microwaveRepair="true" />
+      </main>
     </div>
   );
 }

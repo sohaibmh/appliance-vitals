@@ -1,4 +1,4 @@
-import styles from "./styles/MainPage.module.css";
+import styles from "./styles/SVGs.module.css";
 
 const blue = "#0057ba";
 // const green = "#2A9134";
@@ -50,7 +50,8 @@ export const washingMachine = (
     viewBox="0 0 512.039 512.039"
     fill={blue}
     className={styles.rollInLeft}
-    route="washing-machine-repair"
+    route="appliance-repairs-london/washing-machine-repair/#service"
+    name="Washing Machine Repair"
   >
     <g>
       <path d="m468.352 140.211c4.142 0 7.5-3.357 7.5-7.5v-83.823c0-26.957-21.932-48.888-48.888-48.888h-341.889c-26.956 0-48.887 21.931-48.887 48.888v414.262c0 26.957 21.931 48.889 48.888 48.889h341.889c26.957 0 48.888-21.932 48.888-48.889v-298.477c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v217.162h-66.704c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h66.704v65.972h-409.665v-65.972h66.704c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-66.704v-272.126h37.216c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-37.216v-45.821c0-18.686 15.202-33.888 33.887-33.888h341.889c18.686 0 33.888 15.202 33.888 33.888v45.821h-340.486c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h340.485v23.002c.001 4.143 3.358 7.5 7.501 7.5zm-41.388 356.828h-341.889c-13.439 0-25.076-7.864-30.551-19.232h402.991c-5.475 11.368-17.112 19.232-30.551 19.232z" />
@@ -75,7 +76,8 @@ export const fridge = (
     viewBox="0 0 206.916 206.916"
     fill={blue}
     className={styles.rollInLeft}
-    route="fridge-repair"
+    route="appliance-repairs-london/fridge-freezer-repair/#service"
+    name="Fridge Freezer Repair"
   >
     <path
       d="M98.959,0H21.39c-6.12,0-11.097,4.962-11.097,11.056v40.702c0,2.839,1.111,5.406,2.884,7.367
@@ -122,7 +124,8 @@ export const cooker = (
     viewBox="0 0 512 512"
     fill={blue}
     className={styles.rollInLeft}
-    route="cooker-repair"
+    route="appliance-repairs-london/cooker-repair/#service"
+    name="Cooker Repair"
   >
     <g>
       <g>
@@ -271,7 +274,8 @@ export const oven = (
     className={styles.rollInLeft}
     id={styles.ovenRepair}
     key={styles.ovenRepair}
-    route="oven-repair"
+    route="appliance-repairs-london/oven-repair/#service"
+    name="Oven Repair"
   >
     <g id="outline">
       <path d="M271,296a8,8,0,0,0-16,0c0,4.994-1.89,7.154-5.021,10.732C246.19,311.062,241,316.994,241,328s5.19,16.938,8.979,21.268C253.11,352.846,255,355.006,255,360a8,8,0,0,0,16,0c0-11.006-5.19-16.938-8.979-21.268C258.89,335.154,257,332.994,257,328s1.89-7.154,5.021-10.732C265.81,312.938,271,307.006,271,296Z" />
@@ -298,7 +302,8 @@ export const dishwasher = (
     viewBox="0 0 512 512"
     fill={blue}
     className={styles.rollInLeft}
-    route="dishwasher-repair"
+    route="appliance-repairs-london/dishwasher-repair/#service"
+    name="Dishwasher Repair"
   >
     <path d="M304,80H208a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h96a8,8,0,0,0,8-8V88A8,8,0,0,0,304,80Zm-8,32H216V96h80Z" />
     <path d="M456,496a8,8,0,0,0,8-8V24a8,8,0,0,0-8-8H56a8,8,0,0,0-8,8V488a8,8,0,0,0,8,8ZM64,32H448V48H64Zm0,32H448v80H64Zm229.455,96c-5.648,9.2-20.445,16-37.455,16s-31.807-6.8-37.455-16ZM64,160H201.085c5.056,18.469,27.364,32,54.915,32s49.859-13.531,54.915-32H448V448H64Zm0,304H448v16H64Z" />
@@ -319,7 +324,8 @@ export const microwave = (
     viewBox="0 0 512 512"
     fill={blue}
     className={styles.rollInLeft}
-    route="microwave-repair"
+    route="appliance-repairs-london/microwave-repair/#service"
+    name="Microwave Repair"
   >
     <g>
       <g>
