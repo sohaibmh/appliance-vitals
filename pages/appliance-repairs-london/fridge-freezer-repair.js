@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Fridge Freezer Repair | Appliance Vitals Ltd</title>
+        <title>Fridge Freezer Repair in London | Appliance Vitals Ltd</title>
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"

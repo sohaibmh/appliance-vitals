@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Cooker Repair | Appliance Vitals Ltd</title>
+        <title>Cooker Repair in London | Appliance Vitals Ltd</title>
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"

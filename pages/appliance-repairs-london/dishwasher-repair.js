@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Dishwasher Repair | Appliance Vitals Ltd</title>
+        <title>Dishwasher Repair in London | Appliance Vitals Ltd</title>
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
