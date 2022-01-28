@@ -44,8 +44,8 @@ export default function Layout(props) {
         <div>
           <b>Contact Us</b>
           <br />
-          <a href="mailto:appliancevitals@gmail.com">
-            appliancevitals@gmail.com
+          <a href="mailto:admin@appliancevitals.com">
+            admin@appliancevitals.com
           </a>
         </div>
       </footer>
