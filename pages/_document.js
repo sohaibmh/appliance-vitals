@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en-GB">
         <Head>
           {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
           <script

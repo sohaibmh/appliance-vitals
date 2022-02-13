@@ -6,11 +6,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Washing Machine Repair in London | Appliance Vitals Ltd</title>
+        <title>
+          Washing Machine Repair in London | Fixing Any Make & Model
+        </title>
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
-          content="Repair of all kitchen appliances including washing machines, fridge freezers, ovens, dishwashers, cookers, and more."
+          content="Book washing machine repairs in London & enjoy same/next day appointments. Washing machine repairs done on the spot."
         />
         <meta
           name="keywords"

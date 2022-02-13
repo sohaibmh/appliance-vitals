@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Microwave Repair in London | Appliance Vitals Ltd</title>
+        <title>Microwave Repair in London | Fixing Any Make & Model</title>
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
-          content="Repair of all kitchen appliances including washing machines, fridge freezers, ovens, dishwashers, cookers, and more."
+          content="Book microwave repairs in London & enjoy same/next day appointments. Microwave repairs done on the spot."
         />
         <meta
           name="keywords"
