@@ -80,8 +80,64 @@
   align-items: center;
   border-radius: 20px;
   padding: 1rem;
-
   background-color: #f6fafd;
+}
+
+.reviews {
+  width: 62vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 3rem;
+  background-color: #f6fafd;
+  text-align: left;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.reviewsHeading {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  padding-top: 10px;
+}
+
+.review {
+  text-align: left;
+  font-weight: 300;
+  font-size: 25px;
+  padding: 15px;
+}
+
+.ratings {
+  margin-right: 10px;
+}
+
+.reviewers {
+  margin: 0;
+  position: relative;
+  top: -20px;
+  left: 1px;
+}
+
+.reviewsContent {
+  place-items: center;
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: auto auto auto;
+  place-items: center;
+  text-align: justify;
+  width: 62vw;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.googleLogo {
+  padding-left: 50px;
 }
 
 .services > div {
@@ -268,6 +324,43 @@
 
   .services {
     width: 90vw;
+  }
+
+  .reviews {
+    width: 90vw;
+    margin-bottom: 5px;
+  }
+
+  .reviewsHeading {
+    margin-bottom: 10px;
+  }
+
+  .reviewsContent {
+    place-items: center;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    place-items: center;
+    text-align: justify;
+    width: 90vw;
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+
+  .googleLogo {
+    padding-left: 5rem;
+  }
+
+  .ourReviews {
+    padding-right: 20px;
+    margin-right: 10px;
+  }
+
+  .review {
+    padding: 5px;
+    padding-top: 0px;
+    margin-bottom: 2px;
   }
 
   .faqs {
