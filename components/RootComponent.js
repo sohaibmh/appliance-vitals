@@ -214,8 +214,8 @@ export default function RootComponent({
             </p>
           </div>
           <span className={styles.review}>
-            &ldquo;Sohaib is a real pro and reassuring. Don't hesitate to call
-            him.&rdquo;
+            &ldquo;Sohaib is a real pro and reassuring. Don&apos;t hesitate to
+            call him.&rdquo;
           </span>
 
           <div className={styles.ratings}>
@@ -250,9 +250,9 @@ export default function RootComponent({
             &ldquo;Called them out to fix our Amana fridge freezer. Very
             professional, pleasant to deal with. Dismantled the machine and
             discovered the compressor was on its way out. This item was out of
-            stock from the supplier, but at £500 it wasn't economical to repair.
-            So they will only charge me the call-out charge and not the full
-            repair charge. Very decent and honest. Will definitely use them
+            stock from the supplier, but at £500 it wasn&apos;t economical to
+            repair. So they will only charge me the call-out charge and not the
+            full repair charge. Very decent and honest. Will definitely use them
             again and will also recommend them happily.&rdquo;
           </span>
 
@@ -287,12 +287,12 @@ export default function RootComponent({
           <span className={styles.review}>
             &ldquo;I just wanted to express my EXTREME satisfaction with the
             work carried out on my oven by your technician this morning.
-            Firstly, I'd been amazed that I'd made the appointment online last
-            night at around 8 and the technician came this morning at just after
-            10!! He gave me an explanation of what had gone wrong with the oven
-            and sorted it out. It's all working perfectly now. I can TOTALLY
-            recommend Appliance Vitals for any repairs you might need to your
-            domestic appliances.&rdquo;
+            Firstly, I&apos;d been amazed that I&apos;d made the appointment
+            online last night at around 8 and the technician came this morning
+            at just after 10!! He gave me an explanation of what had gone wrong
+            with the oven and sorted it out. It&apos;s all working perfectly
+            now. I can TOTALLY recommend Appliance Vitals for any repairs you
+            might need to your domestic appliances.&rdquo;
           </span>
         </div>
       </div>
