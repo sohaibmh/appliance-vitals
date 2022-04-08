@@ -129,13 +129,18 @@ export default function RootComponent({
       <div className={styles.reviews}>
         <div className={styles.reviewsHeading}>
           <div className={styles.googleLogo}>
-            <Image
-              src="/google-logo.svg"
-              alt="Google Logo"
-              width={60}
-              height={50}
-              quality="100"
-            />
+            <a
+              href="https://www.google.com/search?q=Appliance+Vitals&sxsrf=APq-WBtzsjzexWTmZ2KLIUPaK8DmHb9RrQ%3A1649436560580&ei=kGdQYtr6ItKegQa234iwCw&ved=0ahUKEwjagpeC9oT3AhVST8AKHbYvArYQ4dUDCA4&uact=5&oq=Appliance+Vitals&gs_lcp=Cgdnd3Mtd2l6EAMyCgguEMcBEK8BECcyBAgjECcyBAgjECcyBAgAEB46DQguEMcBEK8BELADECc6BwgjELADECc6BwgAEEcQsAM6CggAEEcQsAMQyQNKBAhBGABKBAhGGABQnQtY8w1gwB9oAXABeACAAaQCiAGRA5IBBTAuMS4xmAEAoAEByAEKwAEB&sclient=gws-wiz"
+              target="_blank"
+            >
+              <Image
+                src="/google-logo.svg"
+                alt="Google Logo"
+                width={60}
+                height={50}
+                quality="100"
+              />
+            </a>
           </div>
           <span className={styles.ourReviews}>
             <b>Our Reviews</b>
