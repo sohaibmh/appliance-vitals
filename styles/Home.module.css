@@ -136,6 +136,11 @@
   margin-bottom: 5px;
 }
 
+.reviewAppliance {
+  color: rgb(104, 102, 102);
+  margin-block-end: 0.5em;
+}
+
 .googleLogo {
   padding-left: 50px;
 }
