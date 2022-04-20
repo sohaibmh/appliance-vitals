@@ -21,7 +21,7 @@ export default function CookerRepair() {
         fontSize: "30px",
       }}
     >
-      <h2 className={styles.applianceTitleServicePage}>Cooker Repair London</h2>
+      <h1 className={styles.applianceTitleServicePage}>Cooker Repair London</h1>
       <span className={styles.serviceSubTitle}>
         Let us take the stress out of your appliance repairs
       </span>

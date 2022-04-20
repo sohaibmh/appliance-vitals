@@ -56,7 +56,21 @@ export default function RootComponent({
 
   return (
     <main className={styles.main}>
-      <h1 className={styles.title}>Assuring fix to your appliance problem.</h1>
+      {washingMachineRepair ||
+      fridgeFreezerRepair ||
+      ovenRepair ||
+      dishwasherRepair ||
+      cookerRepair ||
+      microwaveRepair === "true" ? (
+        <h2 className={styles.title}>
+          Assuring fix to your appliance problem.
+        </h2>
+      ) : (
+        <h1 className={styles.title}>
+          Assuring fix to your appliance problem.
+        </h1>
+      )}
+
       <h2 className={styles.title2}>
         We repair all domestic electrical appliances, including washing
         machines, fridge freezers, ovens, dishwashers, cookers, and more.
