@@ -37,7 +37,7 @@ export default function RootComponent({
             <span key={svg.props.id}>{svg}</span>
           </Link>
           <Link href={`/${svg.props.route}`}>
-            <span>{svg.props.name}</span>
+            <h2 className={styles.svgTitle}>{svg.props.name}</h2>
           </Link>
         </div>
       );

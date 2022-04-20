@@ -205,6 +205,11 @@
   margin-top: 40px;
 }
 
+.svgTitle {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .faqsText {
   justify-self: start;
   color: gray;
