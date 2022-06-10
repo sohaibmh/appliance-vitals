@@ -22,29 +22,6 @@ export default function Layout(props) {
         </span>
       </header>
       {props.children}
-      <p
-        style={{
-          width: "auto",
-          height: "auto",
-          margin: "0",
-          padding: "0",
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "center",
-          alignItems: "center",
-          borderRadius: "20px",
-          padding: "5vw",
-          paddingTop: "1vw",
-          margin: "2vw",
-          fontSize: "30px",
-        }}
-      >
-        Directory of{" "}
-        <a href="http://www.brent.org.uk/appliance-repairs/">
-          Brent Appliance Repairs
-        </a>{" "}
-        - <a href="http://www.brent.org.uk/"> Brent</a>
-      </p>
       <footer className={styles.footer}>
         <div className={styles.footerLogo}>
           <Image
