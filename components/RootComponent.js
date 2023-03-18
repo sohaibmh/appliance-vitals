@@ -104,11 +104,12 @@ export default function RootComponent({
         )}
 
         <h2 className={styles.title2}>
-          We repair all domestic electrical appliances, including washing
-          machines, fridge freezers, ovens, dishwashers, cookers, and more.
-          Available within 24 hours throughout London. You can book our service
-          online, choosing your own date/time depending on your availability.
-          Our engineer will visit your address and fix your appliance issue.
+          Experience reliable repairs for all your household electrical
+          appliances - be it washing machines, fridge freezers, ovens,
+          dishwashers, cookers, and beyond. We're at your service within 24
+          hours, all across London. Schedule a convenient date and time using
+          our easy online booking system. Our expert engineer will arrive at
+          your doorstep, swiftly resolving your appliance woes.
         </h2>
 
         <form action="https://appliancevitals.simplybook.it/v2/#book">
