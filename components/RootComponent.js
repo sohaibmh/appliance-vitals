@@ -109,7 +109,7 @@ export default function RootComponent({
           or dishwashers. We&#39;re at your service within 24 hours, all across
           London. Schedule a convenient date and time using our easy online
           booking system. Our expert engineer will arrive at your doorstep,
-          swiftly resolving your appliance woes.
+          swiftly resolving your appliance issue.
         </h2>
 
         <form action="https://appliancevitals.simplybook.it/v2/#book">
