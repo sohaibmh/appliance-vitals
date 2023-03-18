@@ -106,7 +106,7 @@ export default function RootComponent({
         <h2 className={styles.title2}>
           Experience reliable repairs for all your household electrical
           appliances - be it washing machines, fridge freezers, ovens,
-          dishwashers, cookers, and beyond. We're at your service within 24
+          dishwashers, cookers, and beyond. We&#39;re at your service within 24
           hours, all across London. Schedule a convenient date and time using
           our easy online booking system. Our expert engineer will arrive at
           your doorstep, swiftly resolving your appliance woes.
