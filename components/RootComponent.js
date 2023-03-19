@@ -35,12 +35,12 @@ export default function RootComponent({
     return svgs.map((svg) => {
       return (
         <div key={`/${svg.props.id}`}>
-          <Link href={`/${svg.props.route}`}>
+          <Link legacyBehavior href={`/${svg.props.route}`}>
             <a aria-label={svg.props.name} key={svg.props.id}>
               {svg}
             </a>
           </Link>
-          <Link href={`/${svg.props.route}`}>
+          <Link legacyBehavior href={`/${svg.props.route}`}>
             <a aria-label={svg.props.name}>
               <h2 className={styles.svgTitle}>{svg.props.name}</h2>
             </a>
@@ -85,7 +85,6 @@ export default function RootComponent({
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.appliancevitals.com/" />
-        <link rel="canonical" href="https://www.appliancevitals.com/" />
       </Head>
       <main className={styles.main}>
         {washingMachineRepair ||

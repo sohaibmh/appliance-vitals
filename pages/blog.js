@@ -1,12 +1,12 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import RootComponent from "../components/RootComponent";
+import Blog from "../components/Blog";
 
 export default function Home() {
   return (
-    <div className={styles.main}>
+    <div className={styles.container}>
       <Head>
-        <title>Appliance Repair Service in London | Appliance Vitals Ltd</title>
+        <title>Dishwasher Repair in London | Fixing Any Make & Model</title>
         <script
           type="application/ld+json"
           data-script-src="true"
@@ -49,11 +49,10 @@ export default function Home() {
             { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "My appliance just broke down – now what?", "acceptedAnswer": { "@type": "Answer", "text": "Check for any external changes that may have affected its performance (disconnected power supply/water supply, etc.). If none are found, look for leaks around the machine or holes in the door seal. If you cannot identify the issue, disconnect the appliance and contact a technician." } } , { "@type": "Question", "name": "When can the washer repair technician arrive?", "acceptedAnswer": { "@type": "Answer", "text": "Same-day and weekend appointments are readily available with a 2-hours arrival time frame. How much time the service will take will depend on several factors, such as the nature of the problem and the type of part that needs to be replaced (a second visit is required to install additionally ordered parts)." } } , { "@type": "Question", "name": "Can you guarantee that your repairs will last?", "acceptedAnswer": { "@type": "Answer", "text": "For your peace of mind, all appliance repair services come with a 1-month guarantee period that covers the labour and all replacement parts provided by your dedicated professional." } } , { "@type": "Question", "name": "Which areas in London do you service?", "acceptedAnswer": { "@type": "Answer", "text": "The service provider currently services all areas within London." } } ] }`,
           }}
         ></script>
-
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
-          content="Repair of all kitchen appliances including washing machines, fridge freezers, ovens, dishwashers, cookers, and more."
+          content="Book dishwasher repairs in London & enjoy same/next day appointments. Dishwasher repairs done on the spot."
         />
         <meta
           name="keywords"
@@ -66,7 +65,9 @@ export default function Home() {
         ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <RootComponent />
+      <main>
+        <Blog dishwasherRepair="true" />
+      </main>
     </div>
   );
 }

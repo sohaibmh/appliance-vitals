@@ -1,0 +1,49 @@
+.blogContainer {
+  width: 80vw;
+  height: auto;
+  margin: 2vw;
+  padding: 5vw 5vw 1vw 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+  border-radius: 20px;
+  font-size: 24px;
+  text-align: left;
+  font-family: "Avenirnextltpro", sans-serif;
+  font-weight: 300;
+}
+
+.blogTitle {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.blogSubtitle {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.appliancePicServicePage {
+  border-radius: 20px;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.orderedList {
+  padding-left: 20px;
+  align-items: left;
+  justify-content: left;
+}
