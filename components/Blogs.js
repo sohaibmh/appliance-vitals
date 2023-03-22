@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../styles/blog.module.css";
+import styles from "../styles/blogs.module.css";
 
-const Blog = () => (
+const Blogs = () => (
   <div id="service" className={styles.blogContainer}>
     <h1 className={styles.blogTitle}>
       How to Troubleshoot and Fix a Washing Machine That Won&#39;t Drain
@@ -126,4 +126,4 @@ const Blog = () => (
   </div>
 );
 
-export default Blog;
+export default Blogs;
