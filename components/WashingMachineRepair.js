@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function WashingMachineRepair() {
@@ -63,6 +64,12 @@ export default function WashingMachineRepair() {
         <br /> <br />
         Simply make a booking above and we promise to provide you a high
         standard service.
+        <br /> <br />
+        <b>
+          <Link href="/blogs/how-to-troubleshoot-and-fix-a-washing-machine-that-wont-drain">
+            How to Troubleshoot and Fix a Washing Machine That Won&#39;t Drain
+          </Link>
+        </b>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import Blogs from "../components/Blogs";
+import styles from "../../styles/Home.module.css";
+import HowToTroubleshootAndFixAWashingMachineThatWontDrain from "../../components/blogs/HowToTroubleshootAndFixAWashingMachineThatWontDrain";
+import RootComponent from "../../components/RootComponent";
 
 export default function Home() {
   return (
@@ -66,7 +67,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Blogs />
+        <HowToTroubleshootAndFixAWashingMachineThatWontDrain />
       </main>
     </div>
   );
