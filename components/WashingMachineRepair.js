@@ -70,6 +70,12 @@ export default function WashingMachineRepair() {
             How to Troubleshoot and Fix a Washing Machine That Won&#39;t Drain
           </Link>
         </b>
+        <br /> <br />
+        <b>
+          <Link href="/blogs/troubleshooting-washing-machine-leaking-problems">
+            Troubleshooting Washing Machine Leaking Problems
+          </Link>
+        </b>
       </div>
     </div>
   );

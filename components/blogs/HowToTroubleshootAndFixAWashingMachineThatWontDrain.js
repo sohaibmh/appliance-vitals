@@ -24,7 +24,7 @@ const HowToTroubleshootAndFixAWashingMachineThatWontDrain = () => (
       <Image
         src="/washing-machine-filter.png"
         alt="Washing machine not draining"
-        width={600}
+        width={550}
         height={400}
         quality="100"
         className={styles.appliancePicServicePage}

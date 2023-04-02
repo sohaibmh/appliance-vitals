@@ -12,6 +12,7 @@
   text-align: left;
   font-family: "Avenirnextltpro", sans-serif;
   font-weight: 300;
+  flex-direction: column;
 }
 
 .blogTitle {
@@ -24,8 +25,7 @@
 .blogSubtitle {
   font-size: 28px;
   font-weight: 400;
-  padding: 10px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .imageContainer {
@@ -40,10 +40,4 @@
   justify-self: center;
   align-items: center;
   justify-items: center;
-}
-
-.orderedList {
-  padding-left: 20px;
-  align-items: left;
-  justify-content: left;
 }

@@ -1,12 +1,15 @@
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
-import HowToTroubleshootAndFixAWashingMachineThatWontDrain from "../../components/blogs/HowToTroubleshootAndFixAWashingMachineThatWontDrain";
+import TroubleshootingWashingMachineLeakingProblems from "../../components/blogs/TroubleshootingWashingMachineLeakingProblems";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Appliances Repair in London | Fixing Any Make & Model</title>
+        <title>
+          Troubleshooting Washing Machine Leaking Problems: A Comprehensive
+          Guide by Appliance Vitals
+        </title>
         <script
           type="application/ld+json"
           data-script-src="true"
@@ -52,11 +55,11 @@ export default function Home() {
         <meta charSet="UTF-8"></meta>
         <meta
           name="description"
-          content="Blogs - Reliable repairs for all your household electrical appliances in London"
+          content="Discover the common causes of washing machine leaks and learn how to resolve them with expert tips from Appliance Vitals. If you need professional help, book a service at appliancevitals.com!"
         />
         <meta
           name="keywords"
-          content="Washing machine repair, fridge freezer repair, oven repair, dishwasher repair, cooker repair"
+          content="Washing machine leakage troubleshoot, washing machine leakage cause, broken door seal"
         />
         <meta httpEquiv="x-ua-compatible" content="IE=Edge,chrome=1"></meta>
         <meta
@@ -66,7 +69,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <HowToTroubleshootAndFixAWashingMachineThatWontDrain />
+        <TroubleshootingWashingMachineLeakingProblems />
       </main>
     </div>
   );
